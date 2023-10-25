@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".UpdateActivity">
 
     <EditText
         android:id="@+id/userName"
@@ -31,20 +31,15 @@
         android:textSize="20sp"/>
 
     <Button
-        android:id="@+id/insertBtn"
+        android:id="@+id/updateBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Insert"
+        android:text="Update"
         android:textColor="@color/black"
         android:layout_margin="22dp"
         android:paddingLeft="22dp"
         android:paddingRight="22dp"
         android:layout_gravity="center"
         android:textSize="16sp"/>
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
 
 </LinearLayout>
